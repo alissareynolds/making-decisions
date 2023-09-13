@@ -166,6 +166,12 @@ let z = 5;
 
 //CODE HERE
 
-while(z > 0) {
-  console.log(z--);
+
+let ans = "";
+while(z >= 1) {
+  for(let i = z; i >= 1; i--) {
+    ans = ans + i + ","
+  }
+  z--
 }
+console.log(ans);
